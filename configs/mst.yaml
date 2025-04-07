@@ -1,0 +1,27 @@
+method: 'MST'
+train: False
+pretrained_model_Loading: False
+pretrained_model_Loading_Path: None
+dataset: 'da_rxmism'
+mod_type: ["BPSK", "QPSK", "8PSK", "PAM4", "QAM16", "QAM32", "QAM64", "QAM128", "QAM256", "GFSK", "WBFM", "AM-DSB", "AM-SSB", "OOK", "4ASK", "8ASK", "16PSK", "32PSK","8APSK","GMSK", "DQPSK","16APSK","32APSK","64APSK","128APSK"]
+workers: 16
+seed: 1
+gpu: 0
+cpu: False
+params:
+    "network": "MST"
+    "loss": "loss_CE_smooth"
+    "batch_size": 512
+    "epochs": 195
+    "lr": 5e-3
+    "lr_decay": 0.8
+    "weight_decay": 5e-2
+    "early_stop": False
+    "Xmode": [{"type":"APF_ours","options":{"IQ_norm":True, "zero_mask":False}}]
+
+
+# dataset: 'dp2018a'
+# mod_type: ['OOK', '4ASK', '8ASK', 'BPSK', 'QPSK', '8PSK', '16PSK', '32PSK', '16APSK', '32APSK', '64APSK', '128APSK',
+#            '16QAM',  '32QAM', '64QAM', '128QAM', '256QAM', 'AM-SSB-WC', 'AM-SSB-SC', 'AM-DSB-WC', 'AM-DSB-SC',
+#            'FM', 'GMSK', 'OQPSK']
+

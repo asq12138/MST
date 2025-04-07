@@ -7,3 +7,5 @@ This repository contains the implementation of the MST model as described in our
 - yacs 0.1.8 
 - torchsummaryX 1.3.0 
 - einops 0.8.0
+## File Architecture 
+The file architecture is referenced from the paper titled “[Convolutional Neural Network Assisted Transformer for Automatic Modulation Recognition under Large CFOs and SROs](https://github.com/DTMB-DL/TransGroupNet)”. We sincerely appreciate the open-source contributions made by the researchers involved in this work.

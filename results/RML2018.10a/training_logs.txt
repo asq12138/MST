@@ -1,0 +1,32 @@
+I 04.07/19:06 main.py:85  ] 
+
+--实验开始--
+
+I 04.07/19:06 main.py:85  ] => PyTorch Version: 2.4.0+cu121
+I 04.07/19:12 main.py:85  ] test_snr : -20 | test_acc : 0.0441
+I 04.07/19:12 main.py:85  ] test_snr : -18 | test_acc : 0.0429
+I 04.07/19:12 main.py:85  ] test_snr : -16 | test_acc : 0.0490
+I 04.07/19:12 main.py:85  ] test_snr : -14 | test_acc : 0.0583
+I 04.07/19:12 main.py:85  ] test_snr : -12 | test_acc : 0.0815
+I 04.07/19:12 main.py:85  ] test_snr : -10 | test_acc : 0.1241
+I 04.07/19:12 main.py:85  ] test_snr : -8 | test_acc : 0.1720
+I 04.07/19:12 main.py:85  ] test_snr : -6 | test_acc : 0.2304
+I 04.07/19:12 main.py:85  ] test_snr : -4 | test_acc : 0.2975
+I 04.07/19:12 main.py:85  ] test_snr : -2 | test_acc : 0.4044
+I 04.07/19:12 main.py:85  ] test_snr : 0 | test_acc : 0.5571
+I 04.07/19:12 main.py:85  ] test_snr : 2 | test_acc : 0.6576
+I 04.07/19:12 main.py:85  ] test_snr : 4 | test_acc : 0.7755
+I 04.07/19:12 main.py:85  ] test_snr : 6 | test_acc : 0.8714
+I 04.07/19:12 main.py:85  ] test_snr : 8 | test_acc : 0.9184
+I 04.07/19:12 main.py:85  ] test_snr : 10 | test_acc : 0.9470
+I 04.07/19:12 main.py:85  ] test_snr : 12 | test_acc : 0.9626
+I 04.07/19:12 main.py:85  ] test_snr : 14 | test_acc : 0.9656
+I 04.07/19:12 main.py:85  ] test_snr : 16 | test_acc : 0.9668
+I 04.07/19:12 main.py:85  ] test_snr : 18 | test_acc : 0.9657
+I 04.07/19:12 main.py:85  ] test_snr : 20 | test_acc : 0.9677
+I 04.07/19:12 main.py:85  ] test_snr : 22 | test_acc : 0.9668
+I 04.07/19:12 main.py:85  ] test_snr : 24 | test_acc : 0.9675
+I 04.07/19:12 main.py:85  ] test_snr : 26 | test_acc : 0.9676
+I 04.07/19:12 main.py:85  ] test_snr : 28 | test_acc : 0.9705
+I 04.07/19:12 main.py:85  ] test_snr : 30 | test_acc : 0.9688
+I 04.07/19:12 main.py:85  ] test_loss : 1.6096e+00 | test_acc : 0.6119
